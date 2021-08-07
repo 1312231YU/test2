@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @GetMapping("/test")
-    public void Test()
+    public String Test()
     {
-        System.out.println("12345");
+        return "12345";
     }
 }

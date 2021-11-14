@@ -12,7 +12,6 @@ public class HomeController {
     public String Test()
     {
         int i = 0;
-        i++;
         System.out.println(i);
         return "12345";
     }

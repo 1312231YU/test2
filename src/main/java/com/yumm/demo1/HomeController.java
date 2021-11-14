@@ -11,6 +11,10 @@ public class HomeController {
     @GetMapping("/test")
     public String Test()
     {
+        int i = 0;
+        i++;
+        System.out.println(i);
         return "12345";
     }
+
 }
